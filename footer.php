@@ -33,12 +33,7 @@
 
 
     <!-- END STEP 2.7 WP_FOOTER CONTENT -->
-
-    </body>
-    </html><?php // END STEP 2.5 BUILD FOOTER ?>
-
-     <!-- START STEP 2.21 ADD FOOTER MENUS -->
- <nav>
+    <nav>
      <?php wp_nav_menu( array( 
          'theme_location' => 'footer-menu', 
          'container_class' => 'footer-nav' 
@@ -55,3 +50,7 @@
 
  <p class="copyright">&copy; <?php echo bloginfo('name') ?>, <?php echo date("Y"); ?></p>
  <!-- END STEP 2.21 ADD FOOTER MENUS -->
+    </body>
+    </html><?php // END STEP 2.5 BUILD FOOTER ?>
+
+  

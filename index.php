@@ -29,7 +29,7 @@
   <h1><?php the_title(); // AUTOMATICALLY ADDS THE PAGE TITLE ?></h1>
   
   <!-- opening flex-container will go here -->
-  
+  <div class="flex-container">
   <main id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <?php // NOTE IDs AND CLASSES ARE AUTOMATICALLY ADDED HERE ?>
 
@@ -51,7 +51,8 @@
 
   <!-- END WORDPRESS LOOP -->    
   </main>
-  
+  <?php get_sidebar(); ?> </div>
+    <!-- START STEP 2.20 ADD FLEX CONTAINER -->
 
    <!-- END STEP 2.8 ADD H1 AND WORDPRESS LOOP -->
   <!-- closing flex-container will go here -->
@@ -65,10 +66,9 @@
     <!-- END STEP 2.6 ENABLE FOOTER -->
     <!-- START STEP 2.22 ADD SIDEBAR -->
 
-    <?php get_sidebar(); ?>
+   
 
     <!-- END STEP 2.22 ADD SIDEBAR -->
-    <!-- START STEP 2.20 ADD FLEX CONTAINER -->
-<div class="flex-container">
+    
+
     <!-- END STEP 2.20 ADD FLEX CONTAINER -->
-</div>

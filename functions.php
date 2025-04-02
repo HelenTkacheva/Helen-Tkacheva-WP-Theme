@@ -54,7 +54,7 @@
         // START STEP 2.14 ADD ADDITIONAL CUSTOM FEATURES TO THE SITE THEME
     // https://developer.wordpress.org/reference%2Ffunctions%2Fadd_theme_support%2F/
 
-    function billypoppins_theme_init(){
+    function helentkacheva_theme_init(){
 
         add_theme_support('post-thumbnails');
         // Enable featured images and post thumbnails
